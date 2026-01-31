@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-from-scalar-like/tags). For example,
+
+```javascript
 import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@v0.1.0-esm/index.mjs';
 ```
 
@@ -111,7 +116,7 @@ var v = y.get();
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
-import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@v0.1.0-esm/index.mjs';
+import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes();
