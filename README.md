@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-from-scalar-like/tags). For example,
+
+```javascript
 import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@v0.1.1-deno/mod.js';
 ```
 
@@ -106,7 +111,7 @@ var v = y.get();
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@deno/mod.js';
-import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@v0.1.1-deno/mod.js';
+import scalar2ndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-from-scalar-like@deno/mod.js';
 
 // Get a list of data types:
 var dt = dtypes();
